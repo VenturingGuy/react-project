@@ -6,7 +6,10 @@ import './Footer.css';
 
 function Footer() {
     return (
-        <footer className="Footer">Luis Ventura Copyright 2020</footer>
+        <footer className="Footer">
+            Luis Ventura Copyright 2020
+            <script>document.write(new Date().getFullYear())</script>
+        </footer>
     )
 }
 
