@@ -10,6 +10,42 @@
     height: auto;
 }
 
+.POPOSSpace .POPOSSpace-title {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.POPOSSpace-title {
+    position: relative;
+}
+
+.POPOSSpace h1 {
+    margin: 0;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.POPOSSpace .POPOSSpace-info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+.POPOSSpace-info {
+    position: relative;
+}
+
+.POPOSSpace .POPOSSpace-info div {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    background: rgba(255, 255, 255, 0.9);
+}
+
 #hours {
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
